@@ -130,6 +130,7 @@ class OtpVerify extends Component {
                   console.log('Third: ', value);
                 }}
               />
+              
               <TextInput
                 onFocus={() => {
                   this.setState({otpFocus: true});
